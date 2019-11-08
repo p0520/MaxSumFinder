@@ -37,7 +37,7 @@ namespace MaxSumFinder
         public void AddChild(Number number)
         {
             Children.Add(number);
-            number.Parent = this;
+            number.Parent = this;//
         }
     }
 }
